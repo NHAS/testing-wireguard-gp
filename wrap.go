@@ -114,7 +114,7 @@ func (t *Wrapper) Write(buffs [][]byte, offset int) (int, error) {
 	defer parsedPacketPool.Put(p)
 
 	for _, buff := range buffs {
-		p.Decode(buff)
+		p.Decode(buff[offset:])
 		log.Println("write pkt: ", p.String())
 	}
 
