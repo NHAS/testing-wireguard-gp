@@ -207,6 +207,7 @@ func main() {
 	log.Println("port: ", port)
 
 	device := device.NewDevice(tdev, conn.NewDefaultBind(), logger)
+
 	err = device.IpcSet(fmt.Sprintf(`private_key=%s
 listen_port=%d
 `, privateKey, port))
