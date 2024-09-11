@@ -3,6 +3,7 @@ module github.com/NHAS/testing-wireguard-gp
 go 1.22.3
 
 require (
+	github.com/gaissmai/bart v0.12.8
 	github.com/mdlayher/netlink v1.7.2
 	golang.org/x/sys v0.18.0
 	golang.zx2c4.com/wireguard v0.0.0-20231211153847-12269c276173
@@ -11,6 +12,7 @@ require (
 )
 
 require (
+	github.com/bits-and-blooms/bitset v1.14.2 // indirect
 	github.com/google/go-cmp v0.6.0 // indirect
 	github.com/josharian/native v1.1.1-0.20230202152459-5c7d0dd6ab86 // indirect
 	github.com/mdlayher/socket v0.5.0 // indirect
@@ -22,3 +24,5 @@ require (
 )
 
 replace golang.zx2c4.com/wireguard => github.com/NHAS/wireguard-go v0.0.0-20240529095120-571acbe917e4
+
+replace github.com/wzshiming/trie => github.com/NHAS/trie v0.0.0-20240911040749-65fc1257581c

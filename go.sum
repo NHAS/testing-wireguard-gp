@@ -1,7 +1,11 @@
 github.com/NHAS/wireguard-go v0.0.0-20240529095120-571acbe917e4 h1:EulVc1kAa1VJPJYD9KDYBhkRRPqe/+L6ctl5HOC7tE8=
 github.com/NHAS/wireguard-go v0.0.0-20240529095120-571acbe917e4/go.mod h1:MKlOBIoyKBAN4RvGVy2tddojN0obH0Jg9HPUr0C+aa8=
+github.com/bits-and-blooms/bitset v1.14.2 h1:YXVoyPndbdvcEVcseEovVfp0qjJp7S+i5+xgp/Nfbdc=
+github.com/bits-and-blooms/bitset v1.14.2/go.mod h1:7hO7Gc7Pp1vODcmWvKMRA9BNmbv6a/7QIWpPxHddWR8=
 github.com/frankban/quicktest v1.14.6 h1:7Xjx+VpznH+oBnejlPUj8oUpdxnVs4f8XU8WnHkI4W8=
 github.com/frankban/quicktest v1.14.6/go.mod h1:4ptaffx2x8+WTWXmUCuVU6aPUX1/Mz7zb5vbUoiM6w0=
+github.com/gaissmai/bart v0.12.8 h1:sj9bq6XT8Zy7PfUYL/a4e2yDToSkYgzOrQzR62gNNlE=
+github.com/gaissmai/bart v0.12.8/go.mod h1:+igNsqewjbZuHqV4Dww2tw6pInLVT1O4bhqfRdr3Nb4=
 github.com/google/btree v1.1.2 h1:xf4v41cLI2Z6FxbKm+8Bu+m8ifhj15JuZ9sa0jZCMUU=
 github.com/google/btree v1.1.2/go.mod h1:qOPhT0dTNdNzV6Z/lhRX0YXUafgPLFUh+gZMl761Gm4=
 github.com/google/go-cmp v0.6.0 h1:ofyhxvXcZhMsU5ulbFiLKl/XBFqE1GSq7atu8tAmTRI=
